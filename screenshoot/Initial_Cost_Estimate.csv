@@ -1,20 +1,22 @@
 ﻿Estimate summary
 Upfront cost,Monthly cost,Total 12 months cost,Currency
-0,6582.75,78993.00,USD
+0,8448.59,101383.08,USD
 ,,* Includes upfront cost
 
 
 Detailed Estimate
 Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
-InitialEstimate,US East (N. Virginia),Route53,Amazon Route 53,0,183.4,2200.80,USD,"Hosted Zones (1), Number of Elastic Network Interfaces (2)"
-InitialEstimate,US East (N. Virginia),CloudFront,Amazon CloudFront,0,117.52,1410.24,USD,"Number of requests (HTTPS) (10000000 per month), Data transfer out to internet (1 TB per month), Data transfer out to origin (1 TB per month)"
-InitialEstimate,US East (N. Virginia),S3,S3 Standard,0,235.52,2826.24,USD,S3 Standard storage (10 TB per month)
-InitialEstimate,US East (N. Virginia),S3,Data Transfer,0,0,0.00,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Amazon CloudFront (0 TB per month)"
-InitialEstimate,US East (N. Virginia),API Gateway,Amazon API Gateway,0,192.46,2309.52,USD,"HTTP API requests units (millions), Average size of each request (500 KB), REST API request units (millions), Cache memory size (GB) (6.1), WebSocket message units (thousands), Average message size (50 KB), Requests (10 per month), Requests (10 per month), Messages (1 per hour)"
-InitialEstimate,US East (N. Virginia),,Amazon EC2 ,0,630.72,7568.64,USD,"Tenancy (Shared Instances), Operating system (Linux), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Consistent, Number of instances: 8), Enable monitoring (disabled), Advance EC2 instance (m5a.xlarge), Pricing strategy ( 1 Year  None upfront), Snapshot Frequency (No snapshot storage)"
-InitialEstimate,US East (N. Virginia),RDS,Amazon RDS for PostgreSQL,0,5052.04,60624.48,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (1 TB), Nodes (2), Instance Type (db.m5.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand), Additional backup storage (2 TB), Cost for one month of retention (per vCPU per month) (1.5000000000), Cost for each additional month of retention (per vCPU per month) (0.0631000000), Cost for total retention (per vCPU per month) (1.63), Total Size of Backup Processed for Export (GB) (100 per month)"
-InitialEstimate,US East (N. Virginia),VPC,Network Address Translation (NAT) Gateway,0,78.93,947.16,USD,Number of NAT Gateways (1)
-InitialEstimate,US East (N. Virginia),VPC,Data Transfer,0,92.16,1105.92,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Internet (1 TB per month), DT Intra-Region: (0 TB per month), Data transfer cost (92.16)"
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,370,4440.00,USD,"Hosted Zones (2), Additional Records in Hosted Zones (), Number of Elastic Network Interfaces (4), Number of domains stored ()"
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,2149.2,25790.40,USD,"Data transfer out to internet (20 TB per month), Data transfer out to origin (20 TB per month), Number of requests (HTTPS) (50000000 per month)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,23.55,282.60,USD,S3 Standard storage (1 TB per month)
+My Estimate,US East (N. Virginia),,S3 Management and Analytics,0,20,240.00,USD,S3 Storage Lens Objects (100 million per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,92.16,1105.92,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Internet (1 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon API Gateway,0,1694.8,20337.60,USD,"HTTP API requests units (millions), Average size of each request (500 KB), REST API request units (millions), Cache memory size (GB) (118), WebSocket message units (exact number), Average message size (32 KB), Requests (10 per month), Requests (10 per month), Messages (100 per second)"
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,251.12,3013.44,USD,"Tenancy (Shared Instances), Operating system (Linux), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Consistent, Number of instances: 4), Enable monitoring (disabled), Advance EC2 instance (m5a.large), Pricing strategy (), Snapshot Frequency (No snapshot storage)"
+My Estimate,US East (N. Virginia),,Amazon RDS for PostgreSQL,0,1554.36,18652.32,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (1 TB), Nodes (2), Instance Type (db.m5.xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand)"
+My Estimate,US East (N. Virginia),,AWS Data Transfer,0,921.6,11059.20,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Internet (10 TB per month), DT Intra-Region: (0 TB per month), Data transfer cost (921.6)"
+My Estimate,US East (N. Virginia),,VPN Connection,0,384.5,4614.00,USD,"Working days per month (22), Number of Site-to-Site VPN Connections (1), Number of subnet associations (1)"
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,987.3,11847.60,USD,Number of NAT Gateways (2)
 
 
 
